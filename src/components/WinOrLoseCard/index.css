@@ -1,0 +1,126 @@
+/* Write your code here. */
+
+.WinOrLoseCardContainer {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 12px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.resultImage {
+  width: 50%;
+  height: 50%;
+}
+
+.scoreDetailsMasterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-size: 26;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.scoreDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  /* border: 1px solid red; */
+}
+
+.scoreDesc {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0px;
+  margin: 3px;
+}
+
+.scoreCard {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 900;
+  color: #6a59ff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.playAgainButton {
+  background-color: #ffce27;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px;
+  border-radius: 12px;
+  width: 100px;
+  height: 40px;
+}
+
+@media all and (min-width: 767px) {
+  @media all and (min-width: 767px) {
+    .WinOrLoseCardContainer {
+      width: 80%;
+      height: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .resultImage {
+      width: 45%;
+      height: 45%;
+      order: 2; /* Changed order to 2 */
+    }
+
+    .scoreDetailsMasterContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      order: 1; /* Changed order to 1 */
+    }
+
+    .result {
+      font-family: 'Roboto';
+      font-size: 32px; /* Large font size */
+      font-weight: 900;
+      color: #ffffff;
+    }
+
+    .scoreDetailsContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      /* border: 1px solid red; */
+    }
+
+    .scoreDesc {
+      font-size: 26px; /* Large font size */
+      margin: 3px;
+    }
+
+    .scoreCard {
+      font-size: 23px; /* Medium font size */
+    }
+
+    .playAgainButton {
+      font-size: 21px; /* Large font size */
+      width: 160px;
+    }
+  }
+}
